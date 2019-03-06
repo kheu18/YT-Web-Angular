@@ -1,6 +1,12 @@
+# To Run
+npm install
+ng serve
+open broswer to localhost:4200 
+
 # YtVideoApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.4.
+
 
 ## Development server
 
