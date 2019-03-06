@@ -1,0 +1,20 @@
+<mat-card>
+  <form (ngSubmit)="onSubmit()" #ytSearch="ngForm" class="flex">
+    <mat-form-field class="width">
+      <input
+        matInput
+        type="text"
+        class="form-control"
+        id="searchParm"
+        [(ngModel)]="searchParm"
+        name="searchParm"
+        placeholder="Search a video"
+      />
+    </mat-form-field>
+
+    <button class="flexbutton" mat-raised-button color="primary" type="submit">
+      Submit
+    </button>
+  </form>
+  <app-gridwall [res]="data"></app-gridwall>
+</mat-card>

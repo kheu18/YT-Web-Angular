@@ -1,0 +1,7 @@
+<mat-grid-list cols="5" rowHeight="100px">
+  <mat-grid-tile *ngFor="let item of res.items">
+    <a [routerLink]="['/videoplayer', item.id.videoId]"
+      ><img src="{{ item.snippet.thumbnails.default.url }}"
+    /></a>
+  </mat-grid-tile>
+</mat-grid-list>
