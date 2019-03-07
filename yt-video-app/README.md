@@ -1,6 +1,8 @@
 # To Run
 npm install
-ng serve
+
+ng serve 
+
 open broswer to localhost:4200 
 
 # YtVideoApp
